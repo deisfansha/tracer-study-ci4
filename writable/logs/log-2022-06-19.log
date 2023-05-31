@@ -1,0 +1,8 @@
+CRITICAL - 2022-06-19 09:30:32 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\tcunnur\app\Controllers\Users.php(35): App\Models\ModelUsers->insertdata()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->save_data()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

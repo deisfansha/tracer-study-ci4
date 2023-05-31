@@ -1,0 +1,10 @@
+CRITICAL - 2022-10-05 07:49:04 --> unlink(assets/img/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/i...', 'D:\\Teknik Infor...', 52, Array)
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Profil.php(52): unlink('assets/img/')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Profil->edit('26')
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#7 {main}
+ERROR - 2022-10-05 23:35:17 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 

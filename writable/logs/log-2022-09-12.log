@@ -1,0 +1,32 @@
+ERROR - 2022-09-12 21:53:10 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-09-12 21:53:10 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 'admin')
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Login.php(203): CodeIgniter\BaseModel->find('admin')
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Login->cekUser()
+#6 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#10 {main}
+CRITICAL - 2022-09-12 22:08:11 --> Trying to access array offset on value of type null
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Hasil.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Teknik Infor...', 33, Array)
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Hasil->detail_hasil('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hasil))
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#6 {main}
+CRITICAL - 2022-09-12 22:08:52 --> Trying to access array offset on value of type null
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Hasil.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Teknik Infor...', 33, Array)
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Hasil->detail_hasil('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hasil))
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#6 {main}

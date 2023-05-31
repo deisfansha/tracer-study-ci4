@@ -1,0 +1,17 @@
+CRITICAL - 2022-10-24 00:52:22 --> Too few arguments to function App\Controllers\Login::change_pass(), 0 passed in D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Login->change_pass()
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#5 {main}
+CRITICAL - 2022-10-24 00:54:03 --> Undefined variable: totalTime
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Teknik Infor...', 40, Array)
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Debug\Toolbar.php(501): include('D:\\Teknik Infor...')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(302): CodeIgniter\Events\Events::trigger('pre_system')
+#6 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#8 {main}

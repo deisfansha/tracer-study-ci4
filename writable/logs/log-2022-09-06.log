@@ -1,0 +1,42 @@
+CRITICAL - 2022-09-06 04:15:53 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Profil->edit('18')
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-09-06 04:16:38 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Profil->edit('18')
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-09-06 04:20:35 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Profil->edit('18')
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-09-06 04:21:13 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Profil->edit('18')
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-09-06 04:21:31 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Profil->edit('18')
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-09-06 04:27:46 --> Call to a member function getRandomName() on string
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Profil->edit('18')
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

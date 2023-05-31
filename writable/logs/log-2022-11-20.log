@@ -1,0 +1,18 @@
+ERROR - 2022-11-20 21:59:56 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2022-11-20 21:59:56 --> Call to a member function getRowArray() on bool
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Kuesioner.php(96): App\Models\ModelKuesioner->detail('plugins')
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#6 {main}
+ERROR - 2022-11-20 22:00:25 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2022-11-20 22:00:25 --> Call to a member function getRowArray() on bool
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Kuesioner.php(96): App\Models\ModelKuesioner->detail('plugins')
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#6 {main}

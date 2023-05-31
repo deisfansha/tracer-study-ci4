@@ -1,0 +1,14 @@
+CRITICAL - 2022-10-16 21:54:11 --> Too few arguments to function App\Controllers\Users::resetPassword(), 0 passed in D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->resetPassword()
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#5 {main}
+CRITICAL - 2022-10-16 21:54:38 --> Too few arguments to function App\Controllers\Users::resetPassword(), 0 passed in D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->resetPassword()
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#5 {main}

@@ -1,0 +1,50 @@
+ERROR - 2022-08-03 23:48:26 --> Error connecting to the database: An operation on a socket could not be performed because the system lacked sufficient buffer space or because a queue was full.
+
+CRITICAL - 2022-08-03 23:48:26 --> Unable to connect to the database.
+Main connection [MySQLi]: An operation on a socket could not be performed because the system lacked sufficient buffer space or because a queue was full.
+
+#0 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tcunnur\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\tcunnur\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#3 C:\xampp\htdocs\tcunnur\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#4 C:\xampp\htdocs\tcunnur\app\Models\ModelUsers.php(61): CodeIgniter\BaseModel->paginate(7, 'user')
+#5 C:\xampp\htdocs\tcunnur\app\Controllers\Users.php(33): App\Models\ModelUsers->getPaginate(7, NULL)
+#6 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->index()
+#7 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-08-03 23:48:58 --> Error connecting to the database: An operation on a socket could not be performed because the system lacked sufficient buffer space or because a queue was full.
+
+CRITICAL - 2022-08-03 23:48:58 --> Unable to connect to the database.
+Main connection [MySQLi]: An operation on a socket could not be performed because the system lacked sufficient buffer space or because a queue was full.
+
+#0 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tcunnur\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\tcunnur\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#3 C:\xampp\htdocs\tcunnur\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#4 C:\xampp\htdocs\tcunnur\app\Models\ModelUsers.php(61): CodeIgniter\BaseModel->paginate(7, 'user')
+#5 C:\xampp\htdocs\tcunnur\app\Controllers\Users.php(33): App\Models\ModelUsers->getPaginate(7, NULL)
+#6 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->index()
+#7 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-08-03 23:52:59 --> Error connecting to the database: An operation on a socket could not be performed because the system lacked sufficient buffer space or because a queue was full.
+
+CRITICAL - 2022-08-03 23:52:59 --> Unable to connect to the database.
+Main connection [MySQLi]: An operation on a socket could not be performed because the system lacked sufficient buffer space or because a queue was full.
+
+#0 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tcunnur\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tcunnur\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tcunnur\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 'admin')
+#4 C:\xampp\htdocs\tcunnur\app\Controllers\Login.php(204): CodeIgniter\BaseModel->find('admin')
+#5 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Login->cekUser()
+#6 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

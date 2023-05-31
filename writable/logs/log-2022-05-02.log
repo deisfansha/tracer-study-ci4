@@ -1,0 +1,27 @@
+CRITICAL - 2022-05-02 23:56:55 --> filterUser filter must have a matching alias defined.
+#0 C:\xampp\htdocs\tracerunnur\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('filterUser')
+#1 C:\xampp\htdocs\tracerunnur\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\tracerunnur\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('home')
+#3 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('home', 'before')
+#4 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tracerunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tracerunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-02 23:57:10 --> filterUser filter must have a matching alias defined.
+#0 C:\xampp\htdocs\tracerunnur\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('filterUser')
+#1 C:\xampp\htdocs\tracerunnur\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\tracerunnur\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('home')
+#3 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('home', 'before')
+#4 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tracerunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tracerunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-02 23:57:25 --> filterUser filter must have a matching alias defined.
+#0 C:\xampp\htdocs\tracerunnur\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('filterUser')
+#1 C:\xampp\htdocs\tracerunnur\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\tracerunnur\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('home')
+#3 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('home', 'before')
+#4 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tracerunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tracerunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}

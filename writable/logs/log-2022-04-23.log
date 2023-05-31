@@ -1,0 +1,127 @@
+ERROR - 2022-04-23 04:10:30 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-04-23 04:10:30 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\tracerunnur\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tracerunnur\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tracerunnur\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tracerunnur\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 'dasdas')
+#4 C:\xampp\htdocs\tracerunnur\app\Controllers\Login.php(49): CodeIgniter\BaseModel->find('dasdas')
+#5 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(825): App\Controllers\Login->cekUser()
+#6 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tracerunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tracerunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-23 04:12:36 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-04-23 04:12:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\tracerunnur\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tracerunnur\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tracerunnur\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tracerunnur\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 'dasdas')
+#4 C:\xampp\htdocs\tracerunnur\app\Controllers\Login.php(49): CodeIgniter\BaseModel->find('dasdas')
+#5 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(825): App\Controllers\Login->cekUser()
+#6 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tracerunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tracerunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-23 04:12:39 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-04-23 04:12:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\tracerunnur\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tracerunnur\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tracerunnur\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tracerunnur\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 'dasdas')
+#4 C:\xampp\htdocs\tracerunnur\app\Controllers\Login.php(49): CodeIgniter\BaseModel->find('dasdas')
+#5 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(825): App\Controllers\Login->cekUser()
+#6 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tracerunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tracerunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-23 04:20:01 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-04-23 04:30:58 --> Undefined array key "userpassword"
+#0 C:\xampp\htdocs\tracerunnur\app\Controllers\Login.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 58)
+#1 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(825): App\Controllers\Login->cekUser()
+#2 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tracerunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tracerunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-23 04:43:42 --> Undefined variable $isInvalUsername
+#0 C:\xampp\htdocs\tracerunnur\app\Views\login\index.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\tracerunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tracerunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tracerunnur\system\Common.php(1089): CodeIgniter\View\View->render('login/index', Array, true)
+#4 C:\xampp\htdocs\tracerunnur\app\Controllers\Login.php(12): view('login/index')
+#5 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tracerunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tracerunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-23 04:44:06 --> Undefined variable $isInvalidlUsername
+#0 C:\xampp\htdocs\tracerunnur\app\Views\login\index.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\tracerunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tracerunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tracerunnur\system\Common.php(1089): CodeIgniter\View\View->render('login/index', Array, true)
+#4 C:\xampp\htdocs\tracerunnur\app\Controllers\Login.php(12): view('login/index')
+#5 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tracerunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tracerunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-23 05:04:19 --> password_hash(): Argument #2 ($algo) must be a valid password hashing algorithm
+#0 C:\xampp\htdocs\tracerunnur\app\Controllers\Login.php(59): password_hash('admin', '$2y$10$YjD/ajmi...')
+#1 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(825): App\Controllers\Login->cekUser()
+#2 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tracerunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tracerunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-23 08:44:02 --> Undefined variable $isInvalidPassword
+#0 C:\xampp\htdocs\tracerunnur\app\Views\login\index.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 56)
+#1 C:\xampp\htdocs\tracerunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tracerunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tracerunnur\system\Common.php(1089): CodeIgniter\View\View->render('login/index', Array, true)
+#4 C:\xampp\htdocs\tracerunnur\app\Controllers\Login.php(12): view('login/index')
+#5 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tracerunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tracerunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-23 09:27:17 --> Undefined array key "password"
+#0 C:\xampp\htdocs\tracerunnur\app\Controllers\Login.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(825): App\Controllers\Login->cekUser()
+#2 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tracerunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tracerunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-23 09:27:47 --> Undefined array key "password"
+#0 C:\xampp\htdocs\tracerunnur\app\Controllers\Login.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(825): App\Controllers\Login->cekUser()
+#2 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tracerunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tracerunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-23 09:28:59 --> Undefined array key "password"
+#0 C:\xampp\htdocs\tracerunnur\app\Controllers\Login.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(825): App\Controllers\Login->cekUser()
+#2 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tracerunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tracerunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-23 09:29:06 --> Undefined array key "password"
+#0 C:\xampp\htdocs\tracerunnur\app\Controllers\Login.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(825): App\Controllers\Login->cekUser()
+#2 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tracerunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tracerunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

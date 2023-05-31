@@ -1,0 +1,7 @@
+CRITICAL - 2022-04-30 05:25:35 --> Class "App\Models\users" not found
+#0 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(802): App\Controllers\Login->__construct()
+#1 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tracerunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tracerunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

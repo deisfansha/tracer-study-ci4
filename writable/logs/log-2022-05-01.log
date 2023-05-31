@@ -1,0 +1,22 @@
+CRITICAL - 2022-05-01 04:13:11 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\tracerunnur\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\tracerunnur\system\Model.php(130): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\tracerunnur\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 'admin')
+#3 C:\xampp\htdocs\tracerunnur\app\Controllers\Login.php(126): CodeIgniter\BaseModel->find('admin')
+#4 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(825): App\Controllers\Login->cekUser()
+#5 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tracerunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tracerunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-01 09:37:18 --> Call to undefined method CodeIgniter\View\View::session()
+#0 C:\xampp\htdocs\tracerunnur\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\tracerunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tracerunnur\system\Common.php(1089): CodeIgniter\View\View->render('login/index', Array, true)
+#3 C:\xampp\htdocs\tracerunnur\app\Controllers\Login.php(16): view('login/index')
+#4 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\tracerunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tracerunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tracerunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}

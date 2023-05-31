@@ -1,0 +1,240 @@
+CRITICAL - 2022-09-21 19:16:43 --> The original file is not a valid file.
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Profil.php(55): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/', '1663805802_725c...')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Profil->edit('18')
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#7 {main}
+CRITICAL - 2022-09-21 19:20:19 --> unlink(assets/img/1663805802_725c3d046bbe9894d81a): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/i...', 'D:\\Teknik Infor...', 56, Array)
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Profil.php(56): unlink('assets/img/1663...')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Profil->edit('18')
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#7 {main}
+CRITICAL - 2022-09-21 19:22:06 --> The original file is not a valid file.
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Profil.php(55): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/', '1663806125_74b0...')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Profil->edit('18')
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#7 {main}
+CRITICAL - 2022-09-21 19:23:19 --> unlink(assets/img/1663806125_74b047584a100909fd44): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/i...', 'D:\\Teknik Infor...', 56, Array)
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Profil.php(56): unlink('assets/img/1663...')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Profil->edit('18')
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#7 {main}
+CRITICAL - 2022-09-21 19:24:30 --> The original file is not a valid file.
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Profil.php(55): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/', '1663806270_3a47...')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Profil->edit('18')
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#7 {main}
+CRITICAL - 2022-09-21 19:26:36 --> unlink(assets/img/1663806270_3a470211de55955fbe33): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/i...', 'D:\\Teknik Infor...', 56, Array)
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Profil.php(56): unlink('assets/img/1663...')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Profil->edit('18')
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#7 {main}
+ERROR - 2022-09-21 19:28:20 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2022-09-21 19:28:21 --> Unknown column 'plugins' in 'where clause'
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Models\ModelKuesioner.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\KuesionerUsers.php(43): App\Models\ModelKuesioner->detail('plugins')
+#6 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\KuesionerUsers->detail('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#7 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KuesionerUsers))
+#8 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#11 {main}
+ERROR - 2022-09-21 19:28:44 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2022-09-21 19:28:44 --> Unknown column 'plugins' in 'where clause'
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Models\ModelKuesioner.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\KuesionerUsers.php(58): App\Models\ModelKuesioner->detail('plugins')
+#6 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\KuesionerUsers->form_kuesioner('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#7 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KuesionerUsers))
+#8 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#11 {main}
+ERROR - 2022-09-21 19:30:05 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2022-09-21 19:30:06 --> Unknown column 'plugins' in 'where clause'
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Models\ModelKuesioner.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\KuesionerUsers.php(43): App\Models\ModelKuesioner->detail('plugins')
+#6 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\KuesionerUsers->detail('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#7 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KuesionerUsers))
+#8 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#11 {main}
+ERROR - 2022-09-21 21:26:16 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+ERROR - 2022-09-21 21:26:16 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+ERROR - 2022-09-21 21:26:16 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+ERROR - 2022-09-21 21:26:16 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+ERROR - 2022-09-21 21:30:25 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2022-09-21 21:30:26 --> Unknown column 'plugins' in 'where clause'
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Models\ModelKuesioner.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Kuesioner.php(96): App\Models\ModelKuesioner->detail('plugins')
+#6 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#7 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#8 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#11 {main}
+ERROR - 2022-09-21 21:32:13 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2022-09-21 21:32:14 --> Unknown column 'plugins' in 'where clause'
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Models\ModelQuestion.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Question.php(125): App\Models\ModelQuestion->detail('plugins')
+#6 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Question->add_option('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#7 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Question))
+#8 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#11 {main}
+CRITICAL - 2022-09-21 21:33:13 --> Trying to access array offset on value of type null
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Hasil.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Teknik Infor...', 33, Array)
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Hasil->detail_hasil('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hasil))
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#6 {main}
+CRITICAL - 2022-09-21 21:34:31 --> Trying to access array offset on value of type null
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Views\main\admin\kuesioner\detail_answer.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Teknik Infor...', 28, Array)
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\View\View.php(210): include('D:\\Teknik Infor...')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('main/admin/kues...', Array, true)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Views\layout\admin\v_content.php(3): view('main/admin/kues...')
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\View\View.php(210): include('D:\\Teknik Infor...')
+#6 D:\Teknik Informatika\SKRIPSI\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('layout/admin/v_...', Array, true)
+#8 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Views\layout\admin\v_wrapper.php(5): view('layout/admin/v_...')
+#9 D:\Teknik Informatika\SKRIPSI\tcunnur\system\View\View.php(210): include('D:\\Teknik Infor...')
+#10 D:\Teknik Informatika\SKRIPSI\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('layout/admin/v_...', Array, true)
+#12 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Hasil.php(52): view('layout/admin/v_...', Array)
+#13 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Hasil->detail_jawaban('3', 'plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#14 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hasil))
+#15 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#18 {main}
+ERROR - 2022-09-21 21:37:53 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2022-09-21 21:37:53 --> Unknown column 'plugins' in 'where clause'
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Models\ModelKuesioner.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\KuesionerUsers.php(43): App\Models\ModelKuesioner->detail('plugins')
+#6 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\KuesionerUsers->detail('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#7 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KuesionerUsers))
+#8 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#11 {main}
+ERROR - 2022-09-21 21:39:27 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2022-09-21 21:39:27 --> Unknown column 'plugins' in 'where clause'
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Models\ModelKuesioner.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\KuesionerUsers.php(43): App\Models\ModelKuesioner->detail('plugins')
+#6 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\KuesionerUsers->detail('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#7 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KuesionerUsers))
+#8 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#11 {main}
+CRITICAL - 2022-09-21 21:40:12 --> Trying to access array offset on value of type null
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Views\main\user\hasil\hasil_detail.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Teknik Infor...', 25, Array)
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\View\View.php(210): include('D:\\Teknik Infor...')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('main/user/hasil...', Array, true)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Views\layout\admin\v_content.php(3): view('main/user/hasil...')
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\View\View.php(210): include('D:\\Teknik Infor...')
+#6 D:\Teknik Informatika\SKRIPSI\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('layout/admin/v_...', Array, true)
+#8 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Views\layout\admin\v_wrapper.php(5): view('layout/admin/v_...')
+#9 D:\Teknik Informatika\SKRIPSI\tcunnur\system\View\View.php(210): include('D:\\Teknik Infor...')
+#10 D:\Teknik Informatika\SKRIPSI\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('layout/admin/v_...', Array, true)
+#12 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\HasilUsers.php(41): view('layout/admin/v_...', Array)
+#13 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\HasilUsers->detail_hasil_users('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#14 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HasilUsers))
+#15 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#18 {main}
+CRITICAL - 2022-09-21 21:45:25 --> Trying to access array offset on value of type null
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Views\main\admin\kuesioner\kuesioner_detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Teknik Infor...', 26, Array)
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\View\View.php(210): include('D:\\Teknik Infor...')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('main/admin/kues...', Array, true)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Views\layout\admin\v_content.php(3): view('main/admin/kues...')
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\View\View.php(210): include('D:\\Teknik Infor...')
+#6 D:\Teknik Informatika\SKRIPSI\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('layout/admin/v_...', Array, true)
+#8 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Views\layout\admin\v_wrapper.php(5): view('layout/admin/v_...')
+#9 D:\Teknik Informatika\SKRIPSI\tcunnur\system\View\View.php(210): include('D:\\Teknik Infor...')
+#10 D:\Teknik Informatika\SKRIPSI\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('layout/admin/v_...', Array, true)
+#12 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Kuesioner.php(137): view('layout/admin/v_...', Array)
+#13 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->detail_kuesioner('', 'fontawesome-fre...', 'css', 'all.min.css')
+#14 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#15 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#18 {main}
+CRITICAL - 2022-09-21 21:49:08 --> Trying to access array offset on value of type null
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Fakultas.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Teknik Infor...', 99, Array)
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Fakultas->add_prodi('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#6 {main}
+CRITICAL - 2022-09-21 21:49:41 --> Trying to access array offset on value of type null
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Fakultas.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Teknik Infor...', 99, Array)
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Fakultas->add_prodi('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#6 {main}

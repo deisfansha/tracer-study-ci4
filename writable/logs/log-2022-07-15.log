@@ -1,0 +1,151 @@
+CRITICAL - 2022-07-15 21:17:08 --> Undefined index: id_gejala
+#0 C:\xampp\htdocs\tcunnur\app\Views\main\admin\kuesioner\kuesioner_add_quest.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('main/admin/kues...', Array, true)
+#4 C:\xampp\htdocs\tcunnur\app\Views\layout\admin\v_content.php(3): view('main/admin/kues...')
+#5 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('layout/admin/v_...', Array, true)
+#8 C:\xampp\htdocs\tcunnur\app\Views\layout\admin\v_wrapper.php(5): view('layout/admin/v_...')
+#9 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('layout/admin/v_...', Array, true)
+#12 C:\xampp\htdocs\tcunnur\app\Controllers\Kuesioner.php(74): view('layout/admin/v_...', Array)
+#13 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question('2')
+#14 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#15 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+CRITICAL - 2022-07-15 21:19:38 --> Undefined index: kode_quest
+#0 C:\xampp\htdocs\tcunnur\app\Views\main\admin\kuesioner\kuesioner_add_quest.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('main/admin/kues...', Array, true)
+#4 C:\xampp\htdocs\tcunnur\app\Views\layout\admin\v_content.php(3): view('main/admin/kues...')
+#5 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('layout/admin/v_...', Array, true)
+#8 C:\xampp\htdocs\tcunnur\app\Views\layout\admin\v_wrapper.php(5): view('layout/admin/v_...')
+#9 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('layout/admin/v_...', Array, true)
+#12 C:\xampp\htdocs\tcunnur\app\Controllers\Kuesioner.php(74): view('layout/admin/v_...', Array)
+#13 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question('2')
+#14 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#15 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+CRITICAL - 2022-07-15 21:24:47 --> Undefined index: tipe_pertanyaan
+#0 C:\xampp\htdocs\tcunnur\app\Views\main\admin\kuesioner\kuesioner_add_quest.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('main/admin/kues...', Array, true)
+#4 C:\xampp\htdocs\tcunnur\app\Views\layout\admin\v_content.php(3): view('main/admin/kues...')
+#5 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('layout/admin/v_...', Array, true)
+#8 C:\xampp\htdocs\tcunnur\app\Views\layout\admin\v_wrapper.php(5): view('layout/admin/v_...')
+#9 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('layout/admin/v_...', Array, true)
+#12 C:\xampp\htdocs\tcunnur\app\Controllers\Kuesioner.php(74): view('layout/admin/v_...', Array)
+#13 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question('2')
+#14 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#15 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+CRITICAL - 2022-07-15 22:01:54 --> Too few arguments to function App\Controllers\Kuesioner::add_question_aksi(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question_aksi()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-15 22:01:55 --> Too few arguments to function App\Controllers\Kuesioner::add_question_aksi(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question_aksi()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-15 22:01:56 --> Too few arguments to function App\Controllers\Kuesioner::add_question_aksi(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question_aksi()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-15 22:01:57 --> Too few arguments to function App\Controllers\Kuesioner::add_question_aksi(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question_aksi()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-15 22:01:58 --> Too few arguments to function App\Controllers\Kuesioner::add_question_aksi(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question_aksi()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-15 22:02:00 --> Too few arguments to function App\Controllers\Kuesioner::add_question_aksi(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question_aksi()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-15 22:02:01 --> Too few arguments to function App\Controllers\Kuesioner::add_question_aksi(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question_aksi()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-15 22:02:02 --> Too few arguments to function App\Controllers\Kuesioner::add_question_aksi(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question_aksi()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-15 22:02:06 --> Too few arguments to function App\Controllers\Kuesioner::add_question_aksi(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question_aksi()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-15 22:02:07 --> Too few arguments to function App\Controllers\Kuesioner::add_question_aksi(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question_aksi()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-15 22:02:08 --> Too few arguments to function App\Controllers\Kuesioner::add_question_aksi(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question_aksi()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-15 22:08:42 --> Too few arguments to function App\Controllers\Kuesioner::add_question_aksi(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question_aksi()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-15 22:08:47 --> Too few arguments to function App\Controllers\Kuesioner::add_question_aksi(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question_aksi()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

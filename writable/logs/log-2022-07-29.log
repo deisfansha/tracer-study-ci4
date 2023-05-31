@@ -1,0 +1,393 @@
+ERROR - 2022-07-29 01:45:48 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2022-07-29 01:45:49 --> Unknown column 'plugins' in 'where clause'
+#0 C:\xampp\htdocs\tcunnur\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tcunnur\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tcunnur\app\Models\ModelFakultas.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tcunnur\app\Controllers\Fakultas.php(93): App\Models\ModelFakultas->detail_fakultas('plugins')
+#6 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Fakultas->add_prodi('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#7 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#8 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-07-29 01:53:20 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tcunnur\app\Controllers\Fakultas.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 91, Array)
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Fakultas->add_prodi('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#3 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-07-29 02:34:10 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2022-07-29 02:34:10 --> Unknown column 'plugins' in 'where clause'
+#0 C:\xampp\htdocs\tcunnur\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tcunnur\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tcunnur\app\Models\ModelKuesioner.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tcunnur\app\Controllers\Kuesioner.php(85): App\Models\ModelKuesioner->detail('plugins')
+#6 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#7 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#8 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-07-29 02:36:34 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\tcunnur\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\tcunnur\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\tcunnur\app\Controllers\Kuesioner.php(79): CodeIgniter\Model->__call('get_data', Array)
+#3 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question('2')
+#4 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#5 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-07-29 02:37:50 --> Undefined index: nama_kuesioner
+#0 C:\xampp\htdocs\tcunnur\app\Controllers\Kuesioner.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question('2')
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#3 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-07-29 02:39:45 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2022-07-29 02:39:46 --> Unknown column 'plugins' in 'where clause'
+#0 C:\xampp\htdocs\tcunnur\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tcunnur\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tcunnur\app\Models\ModelKuesioner.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tcunnur\app\Controllers\Kuesioner.php(79): App\Models\ModelKuesioner->detail('plugins')
+#6 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#7 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#8 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-07-29 02:48:01 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\tcunnur\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\tcunnur\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\tcunnur\app\Controllers\Users.php(75): CodeIgniter\Model->__call('get_user', Array)
+#3 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->edit_approved('15')
+#4 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-07-29 03:10:45 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\tcunnur\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\tcunnur\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\tcunnur\app\Controllers\Users.php(75): CodeIgniter\Model->__call('get_user', Array)
+#3 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->edit_approved('15')
+#4 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-07-29 03:14:10 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\tcunnur\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\tcunnur\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\tcunnur\app\Controllers\Users.php(75): CodeIgniter\Model->__call('get_user', Array)
+#3 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->edit_approved('15')
+#4 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-07-29 03:16:27 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\tcunnur\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\tcunnur\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\tcunnur\app\Controllers\Users.php(75): CodeIgniter\Model->__call('get_user', Array)
+#3 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->edit_approved('15')
+#4 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-07-29 03:17:35 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\tcunnur\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\tcunnur\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\tcunnur\app\Controllers\Users.php(75): CodeIgniter\Model->__call('get_user', Array)
+#3 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->edit_approved('15')
+#4 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-07-29 03:20:41 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\tcunnur\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\tcunnur\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\tcunnur\app\Controllers\Users.php(75): CodeIgniter\Model->__call('get_user', Array)
+#3 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->edit_approved('15')
+#4 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-07-29 06:54:49 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tcunnur\app\Views\layout\admin\v_header.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('layout/admin/v_...', Array, true)
+#4 C:\xampp\htdocs\tcunnur\app\Views\layout\admin\v_wrapper.php(3): view('layout/admin/v_...')
+#5 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('layout/admin/v_...', Array, true)
+#8 C:\xampp\htdocs\tcunnur\app\Controllers\Users.php(33): view('layout/admin/v_...', Array)
+#9 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->index()
+#10 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#11 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-07-29 07:12:17 --> strong_password is not a valid rule.
+#0 C:\xampp\htdocs\tcunnur\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('strong_password')
+#1 C:\xampp\htdocs\tcunnur\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('password_baru', 'Password Baru', 'asdadadniwadnia...', Array, Array)
+#2 C:\xampp\htdocs\tcunnur\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\tcunnur\app\Controllers\Password.php(65): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\password->ubah_password('1')
+#5 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\password))
+#6 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-07-29 07:14:57 --> strong_password is not a valid rule.
+#0 C:\xampp\htdocs\tcunnur\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('strong_password')
+#1 C:\xampp\htdocs\tcunnur\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('password_baru', 'Password Baru', 'admin1', Array, Array)
+#2 C:\xampp\htdocs\tcunnur\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\tcunnur\app\Controllers\Password.php(65): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\password->ubah_password('1')
+#5 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\password))
+#6 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-07-29 07:19:21 --> strong_password is not a valid rule.
+#0 C:\xampp\htdocs\tcunnur\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('strong_password')
+#1 C:\xampp\htdocs\tcunnur\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('password_baru', 'Password Baru', 'admin1', Array, Array)
+#2 C:\xampp\htdocs\tcunnur\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\tcunnur\app\Controllers\Password.php(65): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\password->ubah_password('1')
+#5 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\password))
+#6 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-07-29 07:30:08 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\tcunnur\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\tcunnur\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\tcunnur\app\Controllers\Password.php(103): CodeIgniter\Model->__call('update_password', Array)
+#3 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\password->ubah_password('1')
+#4 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\password))
+#5 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-07-29 07:31:56 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\tcunnur\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\tcunnur\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\tcunnur\app\Controllers\Password.php(103): CodeIgniter\Model->__call('update_password', Array)
+#3 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\password->ubah_password('1')
+#4 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\password))
+#5 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-07-29 08:10:37 --> max_lenght is not a valid rule.
+#0 C:\xampp\htdocs\tcunnur\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('max_lenght')
+#1 C:\xampp\htdocs\tcunnur\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('password_baru', 'Password Baru', 'ad', Array, Array)
+#2 C:\xampp\htdocs\tcunnur\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\tcunnur\app\Controllers\Password.php(64): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\password->ubah_password('1')
+#5 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\password))
+#6 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-07-29 08:33:48 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2022-07-29 08:33:48 --> Unknown column 'plugins' in 'where clause'
+#0 C:\xampp\htdocs\tcunnur\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tcunnur\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tcunnur\app\Models\ModelKuesioner.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tcunnur\app\Controllers\Kuesioner.php(84): App\Models\ModelKuesioner->detail('plugins')
+#6 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#7 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#8 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-07-29 08:57:36 --> Argument 2 passed to CodeIgniter\Validation\Rules::is_unique() must be of the type string, null given, called in C:\xampp\htdocs\tcunnur\system\Validation\Validation.php on line 291
+#0 C:\xampp\htdocs\tcunnur\system\Validation\Validation.php(291): CodeIgniter\Validation\Rules->is_unique('Kuesioner Kelul...', NULL)
+#1 C:\xampp\htdocs\tcunnur\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('nama_kuesioner', 'Nama Kuesioner', 'Kuesioner Kelul...', Array, Array)
+#2 C:\xampp\htdocs\tcunnur\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\tcunnur\app\Controllers\Kuesioner.php(33): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_kuesioner()
+#5 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#6 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-07-29 10:05:48 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-07-29 10:05:49 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tcunnur\system\Database\BaseBuilder.php(1484): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#2 C:\xampp\htdocs\tcunnur\app\Models\ModelAdmin.php(11): CodeIgniter\Database\BaseBuilder->countAll()
+#3 C:\xampp\htdocs\tcunnur\app\Controllers\Home.php(23): App\Models\ModelAdmin->TotalAlumni()
+#4 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-07-29 10:06:11 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-07-29 10:06:11 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tcunnur\system\Database\BaseBuilder.php(1484): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#2 C:\xampp\htdocs\tcunnur\app\Models\ModelAdmin.php(11): CodeIgniter\Database\BaseBuilder->countAll()
+#3 C:\xampp\htdocs\tcunnur\app\Controllers\Home.php(23): App\Models\ModelAdmin->TotalAlumni()
+#4 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-07-29 10:24:53 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2022-07-29 10:24:54 --> Unknown column 'plugins' in 'where clause'
+#0 C:\xampp\htdocs\tcunnur\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tcunnur\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tcunnur\app\Models\ModelQuestion.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tcunnur\app\Controllers\Question.php(125): App\Models\ModelQuestion->detail('plugins')
+#6 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Question->add_option('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#7 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Question))
+#8 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-07-29 10:25:46 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2022-07-29 10:25:47 --> Unknown column 'plugins' in 'where clause'
+#0 C:\xampp\htdocs\tcunnur\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tcunnur\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tcunnur\app\Models\ModelQuestion.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tcunnur\app\Controllers\Question.php(125): App\Models\ModelQuestion->detail('plugins')
+#6 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Question->add_option('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#7 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Question))
+#8 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-07-29 10:26:40 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2022-07-29 10:26:40 --> Unknown column 'plugins' in 'where clause'
+#0 C:\xampp\htdocs\tcunnur\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tcunnur\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tcunnur\app\Models\ModelQuestion.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tcunnur\app\Controllers\Question.php(125): App\Models\ModelQuestion->detail('plugins')
+#6 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Question->add_option('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#7 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Question))
+#8 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-07-29 10:50:58 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tcunnur\app\Controllers\Fakultas.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Fakultas->add_prodi('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#3 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-29 10:51:27 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tcunnur\app\Controllers\Fakultas.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Fakultas->add_prodi('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#3 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-29 10:52:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tcunnur\app\Controllers\Fakultas.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Fakultas->add_prodi('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#3 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-29 10:54:28 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tcunnur\app\Controllers\Fakultas.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Fakultas->add_prodi('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#3 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-07-29 10:56:17 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2022-07-29 10:56:17 --> Unknown column 'plugins' in 'where clause'
+#0 C:\xampp\htdocs\tcunnur\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tcunnur\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tcunnur\app\Models\ModelQuestion.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tcunnur\app\Controllers\Question.php(125): App\Models\ModelQuestion->detail('plugins')
+#6 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Question->add_option('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#7 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Question))
+#8 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-07-29 10:57:14 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2022-07-29 10:57:15 --> Unknown column 'plugins' in 'where clause'
+#0 C:\xampp\htdocs\tcunnur\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tcunnur\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tcunnur\app\Models\ModelQuestion.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tcunnur\app\Controllers\Question.php(125): App\Models\ModelQuestion->detail('plugins')
+#6 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Question->add_option('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#7 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Question))
+#8 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-07-29 10:58:56 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2022-07-29 10:58:56 --> Unknown column 'plugins' in 'where clause'
+#0 C:\xampp\htdocs\tcunnur\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tcunnur\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tcunnur\app\Models\ModelQuestion.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tcunnur\app\Controllers\Question.php(125): App\Models\ModelQuestion->detail('plugins')
+#6 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Question->add_option('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#7 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Question))
+#8 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-07-29 10:59:22 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2022-07-29 10:59:22 --> Unknown column 'plugins' in 'where clause'
+#0 C:\xampp\htdocs\tcunnur\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tcunnur\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tcunnur\app\Models\ModelQuestion.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tcunnur\app\Controllers\Question.php(125): App\Models\ModelQuestion->detail('plugins')
+#6 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Question->add_option('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#7 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Question))
+#8 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}

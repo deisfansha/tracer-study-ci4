@@ -1,0 +1,443 @@
+CRITICAL - 2022-06-25 03:38:55 --> Undefined property: stdClass::$nama_prodi
+#0 C:\xampp\htdocs\tcunnur\app\Views\main\admin\users.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('main/admin/user...', Array, true)
+#4 C:\xampp\htdocs\tcunnur\app\Views\layout\admin\v_content.php(3): view('main/admin/user...')
+#5 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('layout/admin/v_...', Array, true)
+#8 C:\xampp\htdocs\tcunnur\app\Views\layout\admin\v_wrapper.php(5): view('layout/admin/v_...')
+#9 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('layout/admin/v_...', Array, true)
+#12 C:\xampp\htdocs\tcunnur\app\Controllers\Users.php(31): view('layout/admin/v_...', Array)
+#13 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->index()
+#14 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#15 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+CRITICAL - 2022-06-25 03:39:34 --> Undefined property: stdClass::$nama_fakultas
+#0 C:\xampp\htdocs\tcunnur\app\Views\main\admin\users.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('main/admin/user...', Array, true)
+#4 C:\xampp\htdocs\tcunnur\app\Views\layout\admin\v_content.php(3): view('main/admin/user...')
+#5 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('layout/admin/v_...', Array, true)
+#8 C:\xampp\htdocs\tcunnur\app\Views\layout\admin\v_wrapper.php(5): view('layout/admin/v_...')
+#9 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('layout/admin/v_...', Array, true)
+#12 C:\xampp\htdocs\tcunnur\app\Controllers\Users.php(31): view('layout/admin/v_...', Array)
+#13 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->index()
+#14 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#15 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+CRITICAL - 2022-06-25 03:39:56 --> Undefined property: stdClass::$nama_prodi
+#0 C:\xampp\htdocs\tcunnur\app\Views\main\admin\users.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('main/admin/user...', Array, true)
+#4 C:\xampp\htdocs\tcunnur\app\Views\layout\admin\v_content.php(3): view('main/admin/user...')
+#5 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('layout/admin/v_...', Array, true)
+#8 C:\xampp\htdocs\tcunnur\app\Views\layout\admin\v_wrapper.php(5): view('layout/admin/v_...')
+#9 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('layout/admin/v_...', Array, true)
+#12 C:\xampp\htdocs\tcunnur\app\Controllers\Users.php(31): view('layout/admin/v_...', Array)
+#13 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->index()
+#14 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#15 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+ERROR - 2022-06-25 03:44:31 --> Unknown column 'tbl_prodi' in 'from clause'
+CRITICAL - 2022-06-25 03:44:31 --> Unknown column 'tbl_prodi' in 'from clause'
+#0 C:\xampp\htdocs\tcunnur\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tcunnur\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tcunnur\app\Models\ModelUsers.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tcunnur\app\Controllers\Users.php(28): App\Models\ModelUsers->tampildata()
+#6 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->index()
+#7 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-06-25 03:45:41 --> Table 'db_tc.tbl_fakultas,' doesn't exist
+CRITICAL - 2022-06-25 03:45:41 --> Table 'db_tc.tbl_fakultas,' doesn't exist
+#0 C:\xampp\htdocs\tcunnur\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tcunnur\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tcunnur\app\Models\ModelUsers.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tcunnur\app\Controllers\Users.php(28): App\Models\ModelUsers->tampildata()
+#6 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->index()
+#7 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-06-25 04:43:59 --> Undefined variable: row
+#0 C:\xampp\htdocs\tcunnur\app\Views\main\admin\users.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 120, Array)
+#1 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('main/admin/user...', Array, true)
+#4 C:\xampp\htdocs\tcunnur\app\Views\layout\admin\v_content.php(3): view('main/admin/user...')
+#5 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('layout/admin/v_...', Array, true)
+#8 C:\xampp\htdocs\tcunnur\app\Views\layout\admin\v_wrapper.php(5): view('layout/admin/v_...')
+#9 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('layout/admin/v_...', Array, true)
+#12 C:\xampp\htdocs\tcunnur\app\Controllers\Users.php(31): view('layout/admin/v_...', Array)
+#13 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->index()
+#14 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#15 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+ERROR - 2022-06-25 04:44:19 --> Unknown column 'reject' in 'where clause'
+CRITICAL - 2022-06-25 04:44:19 --> Unknown column 'reject' in 'where clause'
+#0 C:\xampp\htdocs\tcunnur\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tcunnur\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tcunnur\app\Models\ModelUsers.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tcunnur\app\Controllers\Users.php(28): App\Models\ModelUsers->tampildata()
+#6 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->index()
+#7 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-06-25 04:44:51 --> Undefined variable: row
+#0 C:\xampp\htdocs\tcunnur\app\Views\main\admin\users.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 120, Array)
+#1 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('main/admin/user...', Array, true)
+#4 C:\xampp\htdocs\tcunnur\app\Views\layout\admin\v_content.php(3): view('main/admin/user...')
+#5 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('layout/admin/v_...', Array, true)
+#8 C:\xampp\htdocs\tcunnur\app\Views\layout\admin\v_wrapper.php(5): view('layout/admin/v_...')
+#9 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('layout/admin/v_...', Array, true)
+#12 C:\xampp\htdocs\tcunnur\app\Controllers\Users.php(31): view('layout/admin/v_...', Array)
+#13 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->index()
+#14 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#15 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+CRITICAL - 2022-06-25 07:32:47 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$isAJAX
+#0 C:\xampp\htdocs\tcunnur\app\Controllers\Users.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->ambildata()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-25 07:35:12 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$isAJAX
+#0 C:\xampp\htdocs\tcunnur\app\Controllers\Users.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->ambildata()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-25 07:37:20 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$isAJAX
+#0 C:\xampp\htdocs\tcunnur\app\Controllers\Users.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->ambildata()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-25 07:38:41 --> Too few arguments to function App\Controllers\Users::__construct(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(802): App\Controllers\Users->__construct()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-25 07:38:57 --> Too few arguments to function App\Controllers\Users::__construct(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(802): App\Controllers\Users->__construct()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-25 07:39:03 --> Too few arguments to function App\Controllers\Users::__construct(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(802): App\Controllers\Users->__construct()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-25 07:39:25 --> Too few arguments to function App\Controllers\Users::__construct(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(802): App\Controllers\Users->__construct()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-25 07:43:40 --> Too few arguments to function App\Controllers\Users::__construct(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(802): App\Controllers\Users->__construct()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-25 07:44:19 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$isAJAX
+#0 C:\xampp\htdocs\tcunnur\app\Controllers\Users.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->ambildata()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-25 08:00:11 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$isAJAX
+#0 C:\xampp\htdocs\tcunnur\app\Controllers\Users.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->ambildata()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-25 08:00:50 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$isAJAX
+#0 C:\xampp\htdocs\tcunnur\app\Controllers\Users.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->ambildata()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-25 08:03:13 --> Too few arguments to function App\Controllers\Users::__construct(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(802): App\Controllers\Users->__construct()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-25 08:04:02 --> Too few arguments to function App\Controllers\Users::__construct(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(802): App\Controllers\Users->__construct()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-25 08:06:17 --> Too few arguments to function App\Controllers\Users::__construct(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(802): App\Controllers\Users->__construct()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-25 08:06:18 --> Too few arguments to function App\Controllers\Users::__construct(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(802): App\Controllers\Users->__construct()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-25 08:06:18 --> Too few arguments to function App\Controllers\Users::__construct(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(802): App\Controllers\Users->__construct()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-25 08:06:19 --> Too few arguments to function App\Controllers\Users::__construct(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(802): App\Controllers\Users->__construct()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-25 08:06:19 --> Too few arguments to function App\Controllers\Users::__construct(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(802): App\Controllers\Users->__construct()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-25 08:06:35 --> Too few arguments to function App\Controllers\Users::__construct(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(802): App\Controllers\Users->__construct()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-25 08:07:47 --> Too few arguments to function App\Controllers\Users::__construct(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(802): App\Controllers\Users->__construct()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-25 08:07:49 --> Too few arguments to function App\Controllers\Users::__construct(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(802): App\Controllers\Users->__construct()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-25 08:07:50 --> Too few arguments to function App\Controllers\Users::__construct(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(802): App\Controllers\Users->__construct()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-25 08:07:59 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$isAJAX
+#0 C:\xampp\htdocs\tcunnur\app\Controllers\Users.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->ambildata()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-25 08:09:01 --> Too few arguments to function App\Controllers\Users::__construct(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(802): App\Controllers\Users->__construct()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-25 08:09:02 --> Too few arguments to function App\Controllers\Users::__construct(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(802): App\Controllers\Users->__construct()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-25 08:09:02 --> Too few arguments to function App\Controllers\Users::__construct(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(802): App\Controllers\Users->__construct()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-25 08:09:02 --> Too few arguments to function App\Controllers\Users::__construct(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(802): App\Controllers\Users->__construct()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-25 08:09:03 --> Too few arguments to function App\Controllers\Users::__construct(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(802): App\Controllers\Users->__construct()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-25 08:09:03 --> Too few arguments to function App\Controllers\Users::__construct(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(802): App\Controllers\Users->__construct()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-25 08:09:03 --> Too few arguments to function App\Controllers\Users::__construct(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(802): App\Controllers\Users->__construct()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-25 08:09:03 --> Too few arguments to function App\Controllers\Users::__construct(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(802): App\Controllers\Users->__construct()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-25 08:09:04 --> Too few arguments to function App\Controllers\Users::__construct(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(802): App\Controllers\Users->__construct()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-25 08:09:04 --> Too few arguments to function App\Controllers\Users::__construct(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(802): App\Controllers\Users->__construct()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-25 08:45:32 --> Too few arguments to function App\Controllers\Users::__construct(), 0 passed in C:\xampp\htdocs\tcunnur\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(802): App\Controllers\Users->__construct()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-25 09:17:38 --> Undefined property: stdClass::$_fakultas
+#0 C:\xampp\htdocs\tcunnur\app\Views\main\admin\users.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 136, Array)
+#1 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('main/admin/user...', Array, true)
+#4 C:\xampp\htdocs\tcunnur\app\Views\layout\admin\v_content.php(3): view('main/admin/user...')
+#5 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('layout/admin/v_...', Array, true)
+#8 C:\xampp\htdocs\tcunnur\app\Views\layout\admin\v_wrapper.php(5): view('layout/admin/v_...')
+#9 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('layout/admin/v_...', Array, true)
+#12 C:\xampp\htdocs\tcunnur\app\Controllers\Users.php(29): view('layout/admin/v_...', Array)
+#13 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->index()
+#14 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#15 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+CRITICAL - 2022-06-25 09:48:24 --> Undefined property: App\Controllers\Users::$ModelUsers
+#0 C:\xampp\htdocs\tcunnur\app\Controllers\Users.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 79, Array)
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->edit('8')
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-25 09:49:11 --> Too few arguments to function App\Models\ModelUsers::edit_data(), 1 passed in C:\xampp\htdocs\tcunnur\app\Controllers\Users.php on line 79 and exactly 2 expected
+#0 C:\xampp\htdocs\tcunnur\app\Controllers\Users.php(79): App\Models\ModelUsers->edit_data(Array)
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->edit('8')
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-25 09:52:21 --> Trying to get property 'nama_alumni' of non-object
+#0 C:\xampp\htdocs\tcunnur\app\Views\main\admin\users_detail.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('main/admin/user...', Array, true)
+#4 C:\xampp\htdocs\tcunnur\app\Views\layout\admin\v_content.php(3): view('main/admin/user...')
+#5 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('layout/admin/v_...', Array, true)
+#8 C:\xampp\htdocs\tcunnur\app\Views\layout\admin\v_wrapper.php(5): view('layout/admin/v_...')
+#9 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('layout/admin/v_...', Array, true)
+#12 C:\xampp\htdocs\tcunnur\app\Controllers\Users.php(96): view('layout/admin/v_...', Array)
+#13 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Users->detail('6')
+#14 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#15 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#18 {main}

@@ -1,0 +1,56 @@
+CRITICAL - 2022-07-07 00:59:05 --> Call to a member function getResult() on array
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Question->index()
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Question))
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-07 01:04:28 --> Undefined variable: detail
+#0 C:\xampp\htdocs\tcunnur\app\Views\main\admin\kuesioner\kuesioner_view.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('main/admin/kues...', Array, true)
+#4 C:\xampp\htdocs\tcunnur\app\Views\layout\admin\v_content.php(3): view('main/admin/kues...')
+#5 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('layout/admin/v_...', Array, true)
+#8 C:\xampp\htdocs\tcunnur\app\Views\layout\admin\v_wrapper.php(5): view('layout/admin/v_...')
+#9 C:\xampp\htdocs\tcunnur\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\tcunnur\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\tcunnur\system\Common.php(1089): CodeIgniter\View\View->render('layout/admin/v_...', Array, true)
+#12 C:\xampp\htdocs\tcunnur\app\Controllers\Kuesioner.php(22): view('layout/admin/v_...', Array)
+#13 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->index()
+#14 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#15 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+CRITICAL - 2022-07-07 02:42:10 --> Undefined property: App\Controllers\Kuesioner::$m_question
+#0 C:\xampp\htdocs\tcunnur\app\Controllers\Kuesioner.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question('2')
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#3 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-07-07 03:12:25 --> Unknown column 'kode_kuesioner' in 'where clause'
+CRITICAL - 2022-07-07 03:12:26 --> Unknown column 'kode_kuesioner' in 'where clause'
+#0 C:\xampp\htdocs\tcunnur\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tcunnur\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tcunnur\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tcunnur\app\Models\ModelKuesioner.php(44): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tcunnur\app\Controllers\Kuesioner.php(62): App\Models\ModelKuesioner->lists_question('2')
+#6 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question('2')
+#7 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#8 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-07-07 03:14:06 --> Call to a member function getResult() on null
+#0 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question('2')
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

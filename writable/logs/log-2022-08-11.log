@@ -1,0 +1,8 @@
+CRITICAL - 2022-08-11 04:06:31 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tcunnur\app\Controllers\Hasil.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(825): App\Controllers\Hasil->detail_hasil('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#2 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hasil))
+#3 C:\xampp\htdocs\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tcunnur\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

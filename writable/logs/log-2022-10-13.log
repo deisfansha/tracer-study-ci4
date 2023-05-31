@@ -1,0 +1,14 @@
+ERROR - 2022-10-13 08:54:04 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2022-10-13 08:54:04 --> Unknown column 'plugins' in 'where clause'
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Models\ModelQuestion.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Question.php(125): App\Models\ModelQuestion->detail('plugins')
+#6 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Question->add_option('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#7 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Question))
+#8 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#11 {main}

@@ -1,0 +1,32 @@
+CRITICAL - 2022-10-18 03:09:48 --> Trying to access array offset on value of type null
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Hasil.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Teknik Infor...', 33, Array)
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Hasil->detail_hasil('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hasil))
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#6 {main}
+CRITICAL - 2022-10-18 03:15:26 --> Trying to access array offset on value of type null
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Fakultas.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Teknik Infor...', 99, Array)
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Fakultas->add_prodi('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#6 {main}
+CRITICAL - 2022-10-18 03:18:34 --> Trying to access array offset on value of type null
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Fakultas.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Teknik Infor...', 99, Array)
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Fakultas->add_prodi('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#6 {main}
+CRITICAL - 2022-10-18 03:19:59 --> Trying to access array offset on value of type null
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Fakultas.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Teknik Infor...', 99, Array)
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Fakultas->add_prodi('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#6 {main}

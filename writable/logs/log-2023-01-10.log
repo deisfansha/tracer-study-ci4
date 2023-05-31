@@ -1,0 +1,117 @@
+ERROR - 2023-01-10 06:29:28 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2023-01-10 06:29:28 --> Call to a member function getRowArray() on bool
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Kuesioner.php(96): App\Models\ModelKuesioner->detail('plugins')
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#6 {main}
+ERROR - 2023-01-10 06:29:56 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2023-01-10 06:29:57 --> Call to a member function getRowArray() on bool
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Kuesioner.php(96): App\Models\ModelKuesioner->detail('plugins')
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#6 {main}
+ERROR - 2023-01-10 06:31:44 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2023-01-10 06:31:44 --> Call to a member function getRowArray() on bool
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Kuesioner.php(96): App\Models\ModelKuesioner->detail('plugins')
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#6 {main}
+ERROR - 2023-01-10 06:32:27 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2023-01-10 06:32:27 --> Call to a member function getRowArray() on bool
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Kuesioner.php(96): App\Models\ModelKuesioner->detail('plugins')
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#6 {main}
+ERROR - 2023-01-10 06:32:58 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2023-01-10 06:32:58 --> Call to a member function getRowArray() on bool
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Kuesioner.php(96): App\Models\ModelKuesioner->detail('plugins')
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#6 {main}
+ERROR - 2023-01-10 06:33:25 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2023-01-10 06:33:25 --> Call to a member function getRowArray() on bool
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Kuesioner.php(96): App\Models\ModelKuesioner->detail('plugins')
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#6 {main}
+ERROR - 2023-01-10 06:34:45 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2023-01-10 06:34:45 --> Call to a member function getRowArray() on bool
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Kuesioner.php(96): App\Models\ModelKuesioner->detail('plugins')
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#6 {main}
+ERROR - 2023-01-10 06:35:55 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2023-01-10 06:35:55 --> Call to a member function getRowArray() on bool
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Kuesioner.php(96): App\Models\ModelKuesioner->detail('plugins')
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#6 {main}
+ERROR - 2023-01-10 06:55:50 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2023-01-10 06:55:51 --> Call to a member function getRowArray() on bool
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Kuesioner.php(96): App\Models\ModelKuesioner->detail('plugins')
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#6 {main}
+ERROR - 2023-01-10 06:56:26 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2023-01-10 06:56:26 --> Call to a member function getRowArray() on bool
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Kuesioner.php(96): App\Models\ModelKuesioner->detail('plugins')
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#6 {main}
+ERROR - 2023-01-10 06:57:30 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2023-01-10 06:57:31 --> Call to a member function getRowArray() on bool
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Kuesioner.php(96): App\Models\ModelKuesioner->detail('plugins')
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#6 {main}
+ERROR - 2023-01-10 07:06:58 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2023-01-10 07:06:59 --> Call to a member function getRowArray() on bool
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Kuesioner.php(96): App\Models\ModelKuesioner->detail('plugins')
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#6 {main}
+ERROR - 2023-01-10 07:07:47 --> Unknown column 'plugins' in 'where clause'
+CRITICAL - 2023-01-10 07:07:48 --> Call to a member function getRowArray() on bool
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Kuesioner.php(96): App\Models\ModelKuesioner->detail('plugins')
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Kuesioner->add_question('plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kuesioner))
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#6 {main}

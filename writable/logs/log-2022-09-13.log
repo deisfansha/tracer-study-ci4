@@ -1,0 +1,63 @@
+ERROR - 2022-09-13 05:45:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%"3"% GROUP BY tahun_lulus' at line 1
+CRITICAL - 2022-09-13 05:45:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%"3"% GROUP BY tahun_lulus' at line 1
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tahun_lu...', 0)
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tahun_lu...')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tahun_lu...')
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Models\ModelAdmin.php(31): CodeIgniter\Database\BaseConnection->query('SELECT tahun_lu...')
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Home.php(38): App\Models\ModelAdmin->TotalTahunPerProdi('3')
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Home->getTahunLulusByProdi()
+#6 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#10 {main}
+ERROR - 2022-09-13 05:45:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%"4"% GROUP BY tahun_lulus' at line 1
+CRITICAL - 2022-09-13 05:45:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%"4"% GROUP BY tahun_lulus' at line 1
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tahun_lu...', 0)
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tahun_lu...')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tahun_lu...')
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Models\ModelAdmin.php(31): CodeIgniter\Database\BaseConnection->query('SELECT tahun_lu...')
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Home.php(38): App\Models\ModelAdmin->TotalTahunPerProdi('4')
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Home->getTahunLulusByProdi()
+#6 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#10 {main}
+ERROR - 2022-09-13 05:45:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%""% GROUP BY tahun_lulus' at line 1
+CRITICAL - 2022-09-13 05:45:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%""% GROUP BY tahun_lulus' at line 1
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tahun_lu...', 0)
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tahun_lu...')
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tahun_lu...')
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Models\ModelAdmin.php(31): CodeIgniter\Database\BaseConnection->query('SELECT tahun_lu...')
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Home.php(38): App\Models\ModelAdmin->TotalTahunPerProdi('')
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Home->getTahunLulusByProdi()
+#6 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#10 {main}
+CRITICAL - 2022-09-13 06:18:32 --> Too few arguments to function App\Models\ModelAdmin::TotalResponden(), 0 passed in D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Home.php on line 28 and exactly 1 expected
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Home.php(28): App\Models\ModelAdmin->TotalResponden()
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#6 {main}
+CRITICAL - 2022-09-13 06:18:58 --> Too few arguments to function App\Models\ModelAdmin::TotalResponden(), 0 passed in D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Home.php on line 28 and exactly 1 expected
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Home.php(28): App\Models\ModelAdmin->TotalResponden()
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#6 {main}
+CRITICAL - 2022-09-13 06:20:38 --> Too few arguments to function App\Models\ModelAdmin::TotalResponden(), 0 passed in D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Home.php on line 28 and exactly 1 expected
+#0 D:\Teknik Informatika\SKRIPSI\tcunnur\app\Controllers\Home.php(28): App\Models\ModelAdmin->TotalResponden()
+#1 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Teknik Informatika\SKRIPSI\tcunnur\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Teknik Informatika\SKRIPSI\tcunnur\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Teknik Informatika\SKRIPSI\tcunnur\system\Commands\Server\rewrite.php(43): require_once('D:\\Teknik Infor...')
+#6 {main}
